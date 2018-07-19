@@ -1,0 +1,33 @@
+@media all and (max-width:730px){
+
+    .icons {
+            flex-direction: column;
+        }
+
+    .document {
+        margin-bottom: 10px;
+    }
+    .iphon-div p {
+        max-height: 110px;
+        overflow: hidden;
+    }
+    .nout-div {
+        height:500px;
+    }
+    .nout-div p {
+        height: 115px;
+        overflow: hidden;
+    }
+    .adress {
+        height:48%;
+    }
+
+}
+@media all and (max-width:530px){
+    .document {
+        height: 199px;
+    }
+    .nout-div {
+        flex-direction: column;
+    }
+}
